@@ -309,7 +309,6 @@ GLOBAL_CONFIG = MfaConfiguration()
 MEMORY = joblib.Memory(
     location=os.path.join(get_temporary_directory(), "joblib_cache"),
     verbose=4 if VERBOSE else 0,
-    bytes_limit=BYTES_LIMIT,
 )
 
 os.environ["OMP_NUM_THREADS"] = f"{BLAS_NUM_THREADS}"
