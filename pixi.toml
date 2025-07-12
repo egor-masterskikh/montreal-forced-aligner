@@ -4,6 +4,7 @@ channels = ["conda-forge"]
 name = "montreal-forced-aligner"
 platforms = ["win-64"]
 version = "0.1.0"
+preview = ["pixi-build"]
 
 [package]
 
