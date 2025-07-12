@@ -5,6 +5,8 @@ name = "montreal-forced-aligner"
 platforms = ["win-64"]
 version = "0.1.0"
 
+[package]
+
 [tasks]
 
 # minimal
