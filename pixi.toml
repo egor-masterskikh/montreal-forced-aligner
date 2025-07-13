@@ -8,6 +8,8 @@ preview = ["pixi-build"]
 
 [package]
 
+[build-system]
+
 [tasks]
 
 # minimal
