@@ -2,7 +2,7 @@
 authors = ["Egor Masterskikh <masterskikh.egor@gmail.com>"]
 channels = ["conda-forge"]
 name = "montreal-forced-aligner"
-platforms = ["win-64"]
+platforms = ["linux-64", "win-64"]
 version = "0.1.0"
 preview = ["pixi-build"]
 
@@ -44,4 +44,4 @@ pixi-pycharm = ">=0.0.8,<0.0.9"
 
 [environments]
 default = ["cpu"]
-dev = ["dev", "pycharm-integration"]
+dev = ["cpu", "dev", "pycharm-integration"]
