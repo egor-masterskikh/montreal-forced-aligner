@@ -4,13 +4,6 @@ channels = ["conda-forge"]
 name = "montreal-forced-aligner"
 platforms = ["linux-64", "win-64"]
 version = "0.1.0"
-preview = ["pixi-build"]
-
-[package]
-
-[build-system]
-
-[tasks]
 
 # minimal
 [dependencies]

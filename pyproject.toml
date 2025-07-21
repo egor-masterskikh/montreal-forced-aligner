@@ -1,3 +1,6 @@
+[project]
+scripts = { mfa = "montreal_forced_aligner/command_line/mfa:mfa_cli" }
+
 [build-system]
 requires = [
     "setuptools>=45", "wheel", "setuptools_scm>=6.2"
